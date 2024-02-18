@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+
+}
+.button {
+  color: black;
+  height: 60px;
+  width: 100px;
+  padding: 1.5em;
+  margin-top: 10px;
+}
+
+.input {
+  height: 40px;
+  border-radius: 10px;
+  color: Black;
+  background-color:#7127df;
+  margin: 10px;
+  width: 450px;
+  padding-left: 5%;
+}

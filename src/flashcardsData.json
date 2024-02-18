@@ -1,0 +1,23 @@
+[
+    {
+      "question": "Q1: What is this called =()=>{};",
+      "answer": "arrow function"
+    },
+    {
+      "question": "Q2: Can a hook call on another hook",
+      "answer": "yes it can"
+    },
+    {
+      "question": "Q3: Who created React?",
+      "answer": "jordan walke in facebook"
+    },
+    {
+      "question": "Q4: When was React created",
+      "answer": "2013"
+    },
+    {
+      "question": "Q5: What is a popular database system",
+      "answer": "relational database"
+    }
+  ]
+  

@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align:top;
+    position: relative;
+    padding:  30px;
+    box-sizing: border-box;
+    /*//Neumorphism*/
+    border-radius: 26px;
+    background: #b98aff;
+    box-shadow: inset 5px 5px 14px #8b68bf,
+                inset -5px -5px 14px #e7adff;
+    color: white;
+    
+
+}
+.question{
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.answer{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width:600px){
+    .card{
+        width: 100%;
+        margin: 0 0 10px 0;
+        height: 250px;
+    }
+    .answer{
+        font-size: 20px;
+    }
+    .question{
+        font-size: 25px;
+    }
+
+}
+
+.card {
+    transition: transform 0.5s;
+  }
+  
+.flip {
+    transform: rotateX(180deg);
+}
+  

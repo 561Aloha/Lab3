@@ -1,0 +1,92 @@
+
+.container {
+  background-color: #dbc96e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: auto;
+    position: relative;
+    border: solid black;
+  }
+  
+.mini-container {
+    background-color: #d7cfbd;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid black;
+    flex:1;
+    width: 200px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+
+.newdrink{
+  width:75px;
+  height: 75px;
+  font-size: 30px; 
+  
+}
+
+.button{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin:1%;
+  background-color: #be9f22;
+}
+
+.submit{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin:1%;
+  background-color: #326598;
+}
+.mini-header{
+  background-color: #b8a33d;
+  height: 45px;
+  margin-top: 0px;
+  color: rgb(220, 235, 198);
+}
+
+#answer-space-correct {
+  background-color: #66d494; 
+}
+
+#answer-space-wrong {
+  background-color: #da6262; 
+}
+
+.drink-container{
+  border: #be9f22 solid;
+  padding-bottom: 2%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.radio-buttons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.radio-buttons label {
+  display: flex;
+  align-items: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.radio-buttons li {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px; 
+}
+
+.radio-buttons li input[type="radio"] {
+  margin-right: 10px;}
